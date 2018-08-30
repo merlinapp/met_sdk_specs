@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
 
   # ――― Pod code Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.source       = { :git => "https://github.com/merlinapp/met_sdk_ios.git", :branch => "feature/met-pod-implementation",
+  s.source       = { :git => "https://github.com/merlinapp/met_sdk_ios.git", :branch => "develop",
                    :tag => "1.0.0" }
   # ――― Dependencies Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
