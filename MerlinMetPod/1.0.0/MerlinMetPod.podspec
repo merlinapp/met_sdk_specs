@@ -41,8 +41,8 @@ Pod::Spec.new do |s|
 
   # ――― Source Files Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   
-  s.source_files = "MerlinMetPod/MerlinMetPod/NetworkPlatform/Configuration/*.{swift}"
-  s.exclude_files = "MerlinMetPod/MerlinMetPodTests/"
+  s.source_files = "MerlinMetPod", "MerlinMetPod/**/*.{swift}"
+  s.exclude_files = "MerlinMetPod/Exclude", "MerlinMetPod/MerlinMetPodTests/"
 
 
 end
